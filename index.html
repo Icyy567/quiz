@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz by Nelly</title>
+</head>
+
+<body>
+
+    <section class="section-1" id="section-1">
+        <div class="input-box" id="input-box">
+            <input type="text" name="name" required minlength="5" id="nameInput">
+            <label for="name">Enter Your Name:</label>
+        </div>
+        <button id="btn-1">SUBMIT</button>
+    </section>
+
+    <!-- FOR THE SECOND THING THAT'LL POP UP -->
+
+    <section id="section-2" class="section-2">
+        <article id="article">
+            <h1 id="greeting"></h1>
+            <h4>Welcome to the Quiz App, please click the button below to proceed</h4>
+
+            <button id="proceed">Proceed</button>
+        </article>
+    </section>
+
+    <!-- THE QUIZ APP ITSELF -->
+
+    <section class="app" id="app">
+        <div class="first-app">
+            <h1>Simple Quiz BY DANIEL</h1>
+
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+
+
+
+        <div class="quiz">
+            <h2 id="question">Question Goes Here</h2>
+
+            <div id="answer-buttons">
+
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+
+            <button id="next-btn">Next</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
